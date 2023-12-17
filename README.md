@@ -10,19 +10,19 @@ This repository contains a Cypress test suite for verifying the functionality of
 
 1. **Clone this repository:**
 
-   ```json
+   ```bash
    git clone https://github.com/ManuC7/saucedemo-ui-tests.git
    ```
 
 2. **Navigate to the project directory:**
 
-   ```json
+   ```bash
    cd saucedemo-ui-tests
    ```
 
 3. **Install dependencies:**
 
-   ```json
+   ```bash
    npm install
    ```
 
@@ -30,7 +30,7 @@ This repository contains a Cypress test suite for verifying the functionality of
 
 1. **Create a `cypress.env.json` file in the project root with the following content:**
 
-   ```json
+   ```bash
    {
      "username": "username",
      "password": "password"
@@ -43,7 +43,7 @@ This repository contains a Cypress test suite for verifying the functionality of
 
 To run the tests in headless mode and generate a Mochawesome report, use the following command:
 
-```json
+```bash
 npm run test-headless
 ```
 
@@ -52,7 +52,7 @@ The test reports can be found in the reports folder.
 
 To run the tests with the Cypress Test Runner and view the reports interactively, use:
 
-```json
+```bash
 npm run test
 ```
 
